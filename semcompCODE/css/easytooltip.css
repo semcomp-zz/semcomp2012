@@ -1,0 +1,32 @@
+#easyTooltip{
+	margin:0 10px 1em 0;
+	width:200px;
+	padding:8px;
+	/*background:#E9FD97;*/
+	background: #f2f2f2;
+	border:1px solid #e1e1e1;
+	line-height:130%;		
+	/*text-shadow: 1px 1px 1px #FFF;		*/
+	}
+#easyTooltip{
+	margin:0 0 .5em 0;
+	font-size:13px;
+	font-family: 'Oswald', Tahoma;
+	}	
+#easyTooltip p{
+	margin:0 0 .5em 0;
+	}		
+#easyTooltip img{
+		background:#fff;
+		padding:1px;
+		border:1px solid #e1e1e1;
+		float:left;
+		margin-right:10px;
+		}		
+
+#item{display:none;}
+
+#easyTooltip h1{
+	font-size: 21px;
+	margin-bottom: 12px;
+}

@@ -1,0 +1,654 @@
+*{margin: 0 auto; padding: 0;}
+
+img,a{border:none;}
+
+body{background: url("../images/bg_cont.png") repeat-x #E1E1E1;}
+
+#all{
+	width: auto;
+}
+
+#top{
+	width: auto;
+	height: 32px;
+	background: black;
+}
+
+#topInt{
+	width: 930px;
+	margin: 0 auto;
+	height: 40px;
+}
+
+#header{
+	background: #FFF;
+	width: auto;
+	height: 100px;
+}
+
+#headerInt{
+	width: 930px;
+	height: inherit;
+	margin: 0 auto;
+}
+#marca{
+	width: 318px;
+	height: 69px;
+	float: left;
+	background: url("../images/marca.png") no-repeat;
+	margin: 15px 0 0 0;
+}
+
+#menu {
+	width: 600px;
+	float: right;
+	height: 30px;
+	margin-top: 16px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	text-align: right;
+}
+
+#menu a.linkMenu{
+	color: #505050;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #FFF;
+	font-size: 17px;
+}
+
+#menu a.linkMenu:hover{
+	color: #a0c900 ;
+}
+
+span.spanMenu{
+	color: #AAD400;
+	font-weight: 700;
+	font-size:20px;
+	margin: 0 4px 0 4px;
+}
+
+#inscreva{
+	padding: 7px 8px 7px 8px;
+	background: #333;
+	color: #bceb00;
+	font-family: 'Oswald', sans-serif;
+	float: right;
+	margin-top: 6px;
+	text-decoration: none;
+}
+
+#inscreva:hover{
+font-size: 21px;
+padding: 3px 1px 3px 2px;
+}
+
+#redes{
+	width: 150px;
+	float: right;
+	height: 23px;
+	margin-top: 4px;
+}
+#redes a{
+	margin-left: 5px;
+}
+
+#banner{
+	width: auto;
+	height: 320px;
+	background: url("../images/bg_banner.jpg") #2c2c2c;
+}
+
+#bannerInt img{
+	width: 885px;
+	height: 276px;
+	margin: 0 auto;
+	padding-top: 22px;
+	display: table;
+}
+
+#content{
+	width: auto;
+	height: auto;
+	/*background: url("../images/bg_cont.png") repeat-x #E1E1E1;*/
+}
+
+#contentInt{
+	width: 930px;
+	height: auto;
+	margin: 0 auto;
+	display: table;
+}
+
+#leftMain{
+	width: 448px;
+	float: left;
+}
+
+
+#noticias{
+	width: 500px;
+	float: left;
+	height: auto;
+}
+a.titleNoticeMain{
+	font-size: 21px;
+	font-family: 'Oswald', Tahoma;
+	margin-bottom: 18px;
+	margin-top: 5px;
+	float: left;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #FFF;
+	color: #666;
+}
+a.titleNoticeMain:hover{text-decoration: underline;}
+
+#lineNotice{
+	background: url("../images/line_horiz.png") repeat-x;
+	width: 500px;
+	height: 3px;
+	float: left;
+	margin-top: 30px;
+}
+
+
+#palestrantes{
+	width: 910px;
+	height:290px;
+	margin-bottom: 8px;
+	display: table;
+	margin-left: 12px;	
+}
+
+#fotosPalestrantes{width: 910px; float: left; height: 170px; margin-top: 20px; margin-bottom: 24px;}
+
+.palestrante{
+	float: left;
+	margin: 8px 12px 8px 12px;
+}
+a.palestranteConfirmado{
+	width: 103px;
+	height: 169px;
+	float: left;
+	margin: 5px;
+	border: 0;
+	display: block;
+	cursor: pointer;
+	text-decoration: none;
+
+}
+
+.descPalestrante{
+	width: 103px;
+	height: 46px;
+	line-height: 22px;
+	font-size: 17px;
+	text-align: center;
+	color: #000;
+	font-family: 'Oswald', Tahoma;
+	background: #a1c900;
+}
+.tooltipsy{
+ 	padding: 10px;
+    max-width: 200px;
+    color: #303030;
+    background-color: #f5f5b5;
+    border: 1px solid #deca7e;
+ }
+
+ ::selection {
+    background: #95b700; /* Safari, Chrome */
+	color:#333;
+   }
+::-moz-selection {
+    background: #95b700; /* Firefox */
+	color:#333;
+}
+
+#rightMain{
+	width: 290px;
+	height: auto;
+	float: right;
+	margin-right: 80px;
+}
+
+#likebox{
+	width: 290px;
+	height: 210px;
+	margin-top: 20px;
+	display: table;
+	float: right;
+}
+
+#twitterStream{
+	width: 350px;
+	height: 326px;
+	margin-top: 30px;
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: normal;
+	color: #535353;
+	padding-bottom: 13px;
+}
+
+#patrocinadores{
+	width: 900px;
+	height: 120px;
+	display: table;
+	padding: 38px 0 32px 0;
+}
+
+
+#patrocinios img{
+	vertical-align: middle;
+}
+
+#bio1, #bio2, #bio3, #bio4, #bio5, #bio6{display: none;}
+
+#interna{
+	width: 930px;
+	height: auto;
+	margin: 0 auto;
+}
+
+img.title_interna{margin-top: 23px; margin-bottom: 20px;}/*width: auto; height: auto; float: left;}*/
+
+.subtitle_interna{
+	float: left;
+	font-family: 'Oswald';
+	color: #666;
+	margin: 20px 0 20px 0;
+	padding: 0;
+}
+
+#formContato{width: 500px; float: left;}
+
+#formContato p{font-family: 'Oswald'; margin-top: 7px;font-size: 16px;}
+
+.input_medium{
+	width: 475px;
+	height: 34px;
+	font-family: 'Oswald';
+	font-size: 28px;
+	padding: 10px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	border: 0;
+	outline: none;
+	background: #CCC;
+}
+
+
+.input_medium:focus{
+	outline: none;
+	background: #AAD400;
+	color: white;
+}
+
+textarea.textarea{
+	width: 475px;
+	height: 200px;
+	border: 0;
+	background: #CCC;
+	resize: none;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	font-family: 'Oswald';
+	font-size: 31px;
+	padding: 10px;
+}
+
+textarea.textarea:focus{
+	outline: none;
+	background: #AAD400;
+	color: white;
+}
+input.botaoEnviar{
+	background: #333;
+	color: #bceb00;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	font-family: 'Oswald';
+	font-weight: 400;
+	width: 495px;
+	height: 51px;
+	text-align: center;
+	padding: 0px 10px 10px 10px;
+	font-size: 31px;
+	margin-top: 14px;
+	cursor: pointer;
+	border: 0;
+}
+input.botaoEnviar:hover{
+	color: #333;
+	background: #bceb00;
+}
+
+.tituloInterno{
+	font-family: 'Oswald'; 
+	color: #666; 
+	text-shadow: 1px 1px 1px #FFF;
+	padding: 0;
+	margin: 0;
+	letter-spacing: 1px;
+}
+
+.separadorInterna{
+	width: 830px;
+	height: 3px;
+	background: url("../images/line_horiz.png") repeat-x;
+	float: left;
+	margin: 20px 0 20px 0;
+}
+
+p.textInterna{
+	float: left;
+	font-family: 'Oswald';
+	color: #666;
+	margin: 7px 0 0 0;
+	width: 910px;
+}
+
+#imagensLocal{
+	width: 930px;
+	height: auto;
+	display: table;
+	margin: 0 auto;
+} 	
+#imagensLocal img{
+	margin: 10px;
+	border: 3px solid #CCC;
+}
+#imagensLocal img:hover{ border: 3px solid #666; }
+
+
+#palestrantesPrincipal{
+	width: 720px;
+	float: left;
+	height: auto;
+	margin-top: 40px;
+}
+
+.bioPalestrante{
+	width: 825px;
+	float: left;
+	height: 220px;	
+}
+img.imgBio{
+	width: 172px;
+	height: 201px;
+	float: left;
+	border: 3px solid #CCC;
+}
+
+.descBio{
+	width: 620px;
+	float: left;
+	height: 220px;
+	margin-left: 15px;
+}
+p.textBio{
+	width: 620px;
+	text-align: justify;
+	float: left;
+	height: auto;
+	font-family:Tahoma;
+	line-height: 17px;
+	font-size: 15px;
+	font-weight: normal;
+	text-shadow: 1px 1px 1px white;
+	margin-top: 7px;
+}
+
+#footer{
+	width: auto;
+	height: 280px;
+	background: url("../images/bg_footer.png") black;
+}
+
+#footerInt{
+	width: 930px;
+	margin: 0 auto;
+	height: 100px;
+
+}
+
+#todosPalestrantes{
+	width: 430px;
+	height: auto;
+	padding: 5px 8px 5px 0;
+	text-align: center;
+	font-family: 'Oswald';
+	background: #333;
+	color: #BCEB00;
+	text-decoration: none;
+	font-weight: 400;
+	margin: 0 auto;
+	display: table;
+	font-size: 19px;
+}
+
+#likebox iframe{
+	margin-top: 5px;
+}
+
+/*
+#lineFooter{
+	background: url("../images/line_horiz.png") repeat-x;
+	width: 930px;
+	height: 3px;
+}
+*/
+p.palestranteKey{
+	background: #727272;
+	padding: 3px 6px 3px 6px;
+	text-align: center;
+	width: auto;
+	height: auto;
+	font-family: 'Oswald';
+	font-size: 15px;
+	font-weight: 600;
+	color: white;
+	float: left;
+}
+
+#listaNoticias{
+	width: 710px;
+	height: auto;
+	display: table;
+}
+
+#listaNoticias .separadorInterna{
+	margin-bottom: 15px;
+	display: table;
+}
+.noticiaUnica{
+	width: 830px;
+	float: left;
+	margin-top: 26px;
+}
+
+a.title_noticias{
+	font-family: 'Oswald';
+	font-weight: 600;
+	font-size: 27px;
+	text-decoration: none;
+	color: #666;
+	text-shadow: 1px 1px 1px #FFF;
+}
+
+
+a.title_noticias:hover{
+	text-decoration: underline;
+}	
+
+
+#redes iframe{
+	float: left;
+	width: 60px;
+	height: 35px;
+	margin-top: 0px;
+}
+
+.compartilheNoticia{
+	width: 210px;	
+	height: 25px;
+}
+
+#bottom{
+	width: 930px;
+	height: 290px;
+	margin: 0 auto;
+	display: table;
+}
+
+#gold{
+	width: 160px;
+	float: left;
+	height: 150px;
+	margin: 0 3px 0 3px;
+
+}
+
+#silver{
+	width: 140px;
+	float: left;
+	height: 150px;
+	margin: 0 3px 0 3px;
+}
+
+#bronze{
+	width: 160px;
+	float: left;
+	height: 150px;
+	margin: 0 3px 0 3px;
+}
+#apoio{
+	width: 400px;
+	height: 150px;
+	float: left;
+	height: auto;
+	margin: 0 3px 0 3px;
+}
+
+.linePatrocinio{
+	background: url("../images/line_patrocinio.png") repeat-y;
+	width: 3px;
+	float: left;
+	height: 190px;
+}
+
+#apoio img.imgApoio{
+	margin: 0px;
+	padding: 5px;
+}
+
+#mapa{
+	width: 700px;
+	float: left;
+	height: auto;
+	display: table;
+	margin-top: 14px;
+}
+
+#mapa a{
+	text-align: left;
+	text-decoration: none;
+	color:#CCC;
+	font-family: 'Oswald';
+	float: left;
+	font-size: 16px;
+	margin-left: 6px;
+}
+#mapa a:hover{
+	color: #BCEB00;
+}
+
+#develop{
+	width: 330px;
+	height: 90px;
+	float: left;
+	margin-top: 35px;
+}
+
+#leftFooter{
+	width: 330px;
+	height: 280px;
+	float: left;
+}
+
+#redesFooter{
+	width: 180px;
+	float: left;
+	height: 69px;
+	margin-top: 12px;
+}
+
+#fb_footer{
+	background: url("../images/fb_footer.png") no-repeat 0 -67px ;
+	width: 67px;
+	height: 67px;
+	float: left;
+}
+
+#fb_footer:hover{
+	background: url("../images/fb_footer.png") no-repeat 0 0px ;
+}
+#twitter_footer{
+	background: url("../images/twitter_footer.png") no-repeat 0 -69px ;
+	width: 93px;
+	height: 69px;
+	float: left;
+	margin-left: 12px;
+}
+
+#twitter_footer:hover{
+	background: url("../images/twitter_footer.png") no-repeat 0 0px ;
+}
+
+
+/****************** HEADER SOCIAL BUTTONS ******************************/
+
+#fb{
+	background: url("../images/fb.png") no-repeat 0 0px ;
+	width: 22px;
+	height: 22px;
+	float: left;
+	margin: 2px 0 0 5px;
+}
+
+#fb:hover{
+	background: url("../images/fb.png") no-repeat 0 -22px ;
+}
+#twitter{
+	background: url("../images/twitter.png") no-repeat 0 0px ;
+	width: 30px;
+	height: 23px;
+	float: left;
+	margin: 2px 0 0 5px;
+}
+
+#twitter:hover{
+	background: url("../images/twitter.png") no-repeat 0 -23px ;
+}
+
+/******************************************************************************/
+
+#comochegar{
+	width: 390px;
+	float: left;
+	height: 400px;
+	margin-left: 35px;
+}
+#comochegar iframe{
+	border: 3px solid #CCC;
+
+}
+
+small a{
+	text-decoration: none;
+	color: #CCC;
+	font-size: 0;
+}
